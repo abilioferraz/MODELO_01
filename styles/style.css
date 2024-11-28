@@ -1,36 +1,78 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Estilo geral */
 body {
-    background-color: #ECF8E5;
     margin: 0;
     padding: 0;
-}
-
-.botton {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin: 30px 0;
     align-items: center;
-    flex-wrap: wrap;
+    height: 100vh;
+    background-color: #f0f0f0;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+}
+
+/* Main para organização */
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Caixa de texto */
+.texto-box {
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 775px;
+    height: 364px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Botão */
+.botton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 .bottonSobre {
     display: inline-block;
-    background-color: #0B9E6D;
-    color: #000000;
     text-decoration: none;
-    font-weight: bold;
+    background-color: #007bff;
+    color: white;
     padding: 10px 20px;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-    text-align: center;
-    width: 100%;
-    max-width: 200px;
-    box-sizing: border-box;
-    word-wrap: break-word;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
 
+.bottonSobre:hover {
+    background-color: #0056b3;
+}
+
+/* Imagem */
+.imagem {
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 100px;
 }
