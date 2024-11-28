@@ -15,7 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #ECF8E5;
 }
 
 
@@ -67,8 +67,8 @@ h1 {
 }
 
 .imagem {
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     margin-left: 10px;
     margin-right: 100px;
 }
