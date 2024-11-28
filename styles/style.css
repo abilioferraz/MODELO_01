@@ -36,13 +36,15 @@ h1 {
 
 }
 
-/* Botão */
+
 .botton {
 
     margin-top: 20px;
     display: flex;
     justify-content: left;
     padding: 10%;
+    gap: 50px;
+
 }
 
 .bottonSobre {
